@@ -3,6 +3,10 @@
     padding-top: 24px;
 }
 
+.button-center {
+    display: flex;
+    justify-content: center;
+}
 
 /* CSS: Sign up Area */
 .c-cards-equal .card .card-body.c-gray-software {
