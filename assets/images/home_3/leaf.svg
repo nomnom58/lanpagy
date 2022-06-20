@@ -1,0 +1,55 @@
+<svg width="179" height="258" viewBox="0 0 179 258" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.4">
+<path class="leaf one" d="M96.2767 194.007C126.285 169.26 115.44 144.302 105.789 131.001C96.1389 117.7 109.059 89.9684 82.3883 67.3338C55.7177 44.6993 64.5615 53.8586 60.5835 28.3C56.6055 2.74138 4.83287 10.5081 10.2902 45.5712C15.7475 80.6343 12.0664 68.8618 12.1836 86.0886C12.3454 109.894 14.3214 115.796 23.0449 127.52C32.9694 140.858 24.3563 170.492 32.8927 181.014C56.5617 210.189 92.2272 197.347 96.2767 194.007Z" fill="#86CDC1"/>
+<path class="leaf one" d="M35.7607 43.9697C35.7607 43.9697 103.338 164.779 103.422 241.548" stroke="#FDFDFE" stroke-width="1.8315"/>
+<path class="leaf one" d="M97.4443 193.714C100.958 209.843 103.223 228.708 103.234 242.664" stroke="black" stroke-width="1.8315"/>
+<path class="leaf one" d="M92.9883 72.2029L68.5976 108.752L19.8467 102.571" stroke="#FDFDFE" stroke-width="1.8315"/>
+<path class="leaf one" d="M107.935 125.804L83.5439 162.353L34.793 156.171" stroke="#FDFDFE" stroke-width="1.8315"/>
+<path class="leaf two" d="M127.173 213.901C115.679 207.156 113.984 188.432 123.389 172.08C132.794 155.728 149.736 147.94 161.231 154.685C172.725 161.429 168.903 177.405 159.498 193.757C150.094 210.109 138.668 220.646 127.173 213.901Z" fill="#FFC64A"/>
+<path class="leaf two" d="M156.968 160.153C156.968 160.153 124.384 212.381 107.367 241.822" stroke="black" stroke-width="1.8315"/>
+<path class="leaf two" d="M149.061 196.685L131.059 203.119L128.346 182.039" stroke="black" stroke-width="1.8315"/>
+</g>
+<style>
+            
+            .leaf{
+                animation: 2s ease-in-out infinite leafMotion;
+                -webkit-animation: 2s ease-in-out infinite leafMotion;
+                -moz-animation: 2s ease-in-out infinite leafMotion;
+                transform-origin: left bottom;
+            }
+            .one{
+                animation-duration: 2.3s;
+                -webkit-animation-duration: 2.3s;
+                -moz-animation-duration: 2.3s;
+            }
+            .two{
+                animation-duration: 2.7s;
+                -webkit-animation-duration: 2.7s;
+                -moz-animation-duration: 2.7s;
+                transform-origin: 40px 100px;
+            }
+            .three{
+                animation-duration: 3s;
+                -webkit-animation-duration: 3s;
+                -moz-animation-duration: 3s;
+                transform-origin: 40px 100px;
+            }
+            @keyframes leafMotion {
+                50% {
+                  transform: rotate(4deg)
+                }
+              }
+
+                @-webkit-keyframes leafMotion {
+                50% {
+                  -webkit-transform: rotate(4deg)
+                }
+              }
+
+                @-moz-keyframes leafMotion {
+                50% {
+                  -moz-transform: rotate(4deg)
+                }
+              }
+        </style>
+</svg>
