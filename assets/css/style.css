@@ -5835,8 +5835,8 @@ Client CSS
 .client-meta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   color: var(--black);
   margin-top: 0;
 }
