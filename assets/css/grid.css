@@ -444,7 +444,7 @@
 
     .img,
     picture {
-        max-width: 120%;
+        max-width: 100%;
         margin-right: 0;
     }
 
@@ -458,7 +458,7 @@
 
     .client-wrapper {
         padding: 50px 60px 50px 60px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .card .card-body {
@@ -469,10 +469,71 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    h1 {
+        text-align: center;
+    }
+
+    .banner-right-img,
+    .btn-red {
+        margin: auto;
+    }
+
+    .c-gray-software {
+        height: auto;
+    }
+
+    /* .c-gray-software:last-child {
+        margin-bottom: 50px;
+    } */
+
+    .c-gray-software:last-child {
+        margin-bottom: 32px;
+        padding-bottom: 0;
+    }
+
+    .why-choose-us {
+        /* padding: 50px 0 100px 0; */
+        margin-top: 50px;
+    }
+
+    .wp-block-columns {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .has-gray-100-background-color {
+        margin-bottom: 32px;
+    }
+
+    .has-gray-100-background-color:last-child {
+        margin-bottom: 0;
+    }
+
+    .btns-justify-content-center {
+        margin-top: calc(60px*var(--scale));
+        margin-bottom: calc(60px*var(--scale));
+    }
 }
 
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {}
+@media (min-width: 740px) and (max-width: 1335px) {
+    .why-choose-us {
+        padding: 50px 0 100px 0;
+    }
 
-/* Mobile */
-@media (max-width: 739px) {}
+    .wp-block-columns {
+        margin-bottom: 32px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1336px) and (max-width: 1920px) {
+    .why-choose-us {
+        padding: 50px 0 100px 0;
+    }
+
+    .wp-block-columns {
+        margin-bottom: 32px;
+    }
+}
