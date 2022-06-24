@@ -302,7 +302,7 @@ a {
     border: 1px solid transparent;
     padding: .6667rem 2rem;
     font-size: 17px;
-    border-radius: .25rem;
+    border-radius: 8px;
     -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -2143,3 +2143,13 @@ a:hover {
 }
 
 /* Footer Landpagy */
+
+/* Feedback section: tự code */
+.swiper-feedback {
+    background-color: red;
+}
+
+.feedback-left-img {
+    width: 730px;
+    height: auto;
+}

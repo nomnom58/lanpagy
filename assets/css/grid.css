@@ -88,7 +88,7 @@
 
 
 /* Lớn hơn Tablet */
-@media (min-width: 740px) {
+@media (min-width: 740px) and (max-width: 1023px) {
     .row {
         margin-left: -8px;
         margin-right: -8px;
@@ -179,7 +179,7 @@
 
 }
 
-/*  Tablet - PC low resolution */
+/* Tablet - PC low resolution
 @media (min-width: 740px) and (max-width: 1023px) {
     .wide {
         width: 644px;
@@ -248,12 +248,12 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
+} */
 
 
 
 /* Lớn hơn PC phân giải thấp */
-@media (min-width: 1113px) {
+/* @media (min-width: 1113px) {
     .row {
         margin-left: -12px;
         margin-right: -12px;
@@ -337,13 +337,13 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
+} */
 
 
 /* Lớn hơn PC low resolution - nhỏ hơn PC phân giải cao */
-@media (min-width: 1024px) and (max-width: 1239px) {
+@media (min-width: 1024px) and (max-width: 1920px) {
     .wide {
-        width: 984px;
+        width: 1440px;
     }
 
     .wide. .row {
@@ -514,6 +514,14 @@
         margin-top: calc(60px*var(--scale));
         margin-bottom: calc(60px*var(--scale));
     }
+
+    /* .has-section-shapes {
+        padding-top: calc(50px*var(--scale));
+        padding-bottom: 50px;
+    } */
+    .wp-block-column {
+        padding-top: 32px;
+    }
 }
 
 /* Tablet */
@@ -528,7 +536,9 @@
 
     .client-meta {
         justify-content: center;
-    }xxsxxxx
+    }
+
+    xxsxxxx
 }
 
 /* Laptop */
