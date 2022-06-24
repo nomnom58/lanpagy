@@ -525,6 +525,10 @@
     .wp-block-columns {
         margin-bottom: 32px;
     }
+
+    .client-meta {
+        justify-content: center;
+    }xxsxxxx
 }
 
 /* Laptop */
@@ -535,5 +539,9 @@
 
     .wp-block-columns {
         margin-bottom: 32px;
+    }
+
+    .client-meta {
+        justify-content: center;
     }
 }
