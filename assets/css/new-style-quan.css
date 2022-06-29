@@ -2144,7 +2144,7 @@ a:hover {
 
 /* Footer Landpagy */
 
-/* Feedback section: tự code */
+/* Start: Feedback section: tự code */
 .swiper-feedback {
     background-color: red;
 }
@@ -2153,3 +2153,87 @@ a:hover {
     width: 730px;
     height: auto;
 }
+
+
+.feedback-container {
+    background-color: #071a2b;
+    padding: 100px 0 0px 0;
+}
+
+.feedback-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback-wrapper__img-wrapper {
+    /* margin-right: 100px; */
+}
+
+.feedback-wrapper__img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.feedback-wrapper__content {
+    padding-left: 130px;
+}
+
+.feedback-wrapper__icon {
+    margin-bottom: 24px;
+}
+
+.feedback-wrapper__text {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.feedback-wrapper__info {
+    font-size: 18px;
+    padding-bottom: 100px;
+    color: #fff;
+    display: block;
+}
+
+.feedback-wrapper__cs {
+    background-color: #112e45;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.feedback-wrapper__cs-text {
+    color: #fff;
+    font-weight: 600;
+    border-radius: 24px;
+    padding-bottom: 24px;
+}
+
+.feedback-wrapper__cs-text-color {
+    color: #52d861;
+    font-weight: 600;
+}
+
+.btn1 {
+    background-color: #52d861;
+    padding: 12px 24px 12px 24px;
+    color: #000;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* End: Feedback section: tự code */
+
+
+/* Mobile */
+@media (max-width: 739px) {}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1335px) {}
+
+/* Laptop */
+@media (min-width: 1336px) and (max-width: 1920px) {}

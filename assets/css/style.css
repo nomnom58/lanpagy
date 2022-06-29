@@ -5773,13 +5773,13 @@ Client CSS
 .client-wrapper {
   /* box-shadow: 0 1.25rem 3.125rem rgba(0, 0, 0, 0.05); */
   border-radius: 1.875rem;
-  padding: 100px 60px 100px 60px;
+  padding: 50px 60px 50px 60px;
   /* background: #fff; */
 }
 
 @media screen and (min-width: 768px) {
   .client-wrapper {
-    padding: 100px 60px 100px 60px;
+    padding: 50px 60px 50px 60px;
     margin: 0 0 100px 0;
   }
 }
