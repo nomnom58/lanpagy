@@ -575,3 +575,109 @@
         justify-content: center;
     }
 }
+
+
+
+/* Start: Impresive stat */
+@media screen and (max-width: 479px) {
+    .big-number-section {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    ._5-big-number-grid {
+        grid-row-gap: 20px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .big-number-div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-right: 0;
+        padding-bottom: 20px;
+        padding-left: 0;
+        border-bottom: 1px solid #02d87e;
+        border-right-style: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .big-number-div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-right: 0;
+        padding-bottom: 20px;
+        padding-left: 0;
+        border-bottom: 1px solid #02d87e;
+        border-right-style: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    ._40-px-big-number {
+        font-size: 34px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    ._40-px-big-number {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    ._40-px-big-number {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    ._5-big-number-grid {
+        grid-row-gap: 20px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .big-number-section {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .big-number-div.last {
+        padding-right: 16px;
+        padding-left: 0;
+        border-bottom-style: none;
+    }
+}
+
+
+
+@media (min-width: 480px) and (max-width: 991px) {
+    .big-number-section {
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .w-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* End: Impresive stat */
